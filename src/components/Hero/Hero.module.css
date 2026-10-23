@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.description {
+  margin: 0 0 24px;
+  max-width: 360px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.large .title {
+  font-size: 36px;
+}
+
+.small .title {
+  font-size: 24px;
+}
+
+.small .description {
+  max-width: none;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 760px) {
+  .large .title {
+    font-size: 28px;
+  }
+
+  .small .title {
+    font-size: 20px;
+  }
+}

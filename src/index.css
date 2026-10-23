@@ -1,0 +1,39 @@
+/* Глобальные стили и токены дизайн-системы (из Styles в Figma, ЛР №17) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Цвета */
+  --color-primary: #6c5ce7;
+  --color-primary-hover: #5a4bd1;
+  --color-primary-light: #efedfd;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
+  --color-background: #f5f7fa;
+  --color-white: #ffffff;
+  --color-border: #e5e7eb;
+  --color-disabled: #d1d5db;
+
+  /* Скругления */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+
+  /* Тени */
+  --shadow-card: 0 1px 3px rgba(17, 24, 39, 0.06);
+  --shadow-card-hover: 0 8px 24px rgba(17, 24, 39, 0.1);
+
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+}
