@@ -18,7 +18,7 @@
 
 ```bash
 # 1. Склонировать репозиторий
-git clone <ссылка-на-репозиторий>
+git clone <https://github.com/3120686-lab/pixelmarket>
 cd pixelmarket
 
 # 2. Установить зависимости
